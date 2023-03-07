@@ -21,7 +21,7 @@ a:hover {
 
 .btn-default:hover,
 .btn-default:focus {
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(255, 255, 255, 0.1);
 }
 
 /*
@@ -39,6 +39,7 @@ body {
 	color: #fff;
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
+
 }
 
 
@@ -60,7 +61,7 @@ body {
 
 .site-wrapper-inner {
 	display: table-cell;
-	vertical-align:middle;
+	vertical-align: middle;
 
 }
 
@@ -106,15 +107,15 @@ body {
 
 
 #background-video {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
 }
 
 .imgBorder {
